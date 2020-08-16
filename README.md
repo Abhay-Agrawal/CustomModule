@@ -69,3 +69,11 @@ The <module_name>/etc/schema.graphqls file:
 * GraphiQL is an in-browser tool for write and testing GraphQl queries.
 * For Google Chrome, ChromeiQL extension is supported, GraphQl Query. Others are Altair GraphQl addon used in both Firefox as well as Chrome.
 
+# Check Other Magento2 Module
+
+| Module Name | Description |
+| --- | --- |
+| Custom Shipping | [Custom Shipping Method For Magento Website](https://github.com/Abhay-Agrawal/Abhay_CustomShipping-1.0.0) |
+| LatestNews | [Add Latest News Related to product offer with content in your website](https://github.com/Abhay-Agrawal/Abhay_LatestNews-1.0.0) |
+
+
