@@ -11,16 +11,16 @@
 # REST API vs GraphQl
 
 
-| Graph Ql | REST API |
-| --- | --- |
-| Single endpoint| Lots of end point |
-| Client decide how data is returned | Server side decide how data is returned |
-| Schema based | There is no schema for the data |
-| Performance fast | Multiple network calls take up more time|
-| Development speed rapid | Development speed slower|
-| Operations- Query,Mutations,subscriptions | Operations- CRUD|
-| Specific data with a single API calls | Fixed data with multiple API calls |
-| Community growing | Community large |
+| S.No.| Graph Ql | REST API |
+| 1. | --- | --- |
+| 2. | Single endpoint| Lots of end point |
+| 3. | Client decide how data is returned | Server side decide how data is returned |
+| 4. | Schema based | There is no schema for the data |
+| 5. | Performance fast | Multiple network calls take up more time|
+| 6. | Development speed rapid | Development speed slower|
+| 7. | Operations- Query,Mutations,subscriptions | Operations- CRUD|
+| 8. | Specific data with a single API calls | Fixed data with multiple API calls |
+| 9. | Community growing | Community large |
 
 # Module Structure
 
