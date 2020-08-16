@@ -12,15 +12,15 @@
 
 
 | S.No.| Graph Ql | REST API |
-| 1. | --- | --- |
-| 2. | Single endpoint| Lots of end point |
-| 3. | Client decide how data is returned | Server side decide how data is returned |
-| 4. | Schema based | There is no schema for the data |
-| 5. | Performance fast | Multiple network calls take up more time|
-| 6. | Development speed rapid | Development speed slower|
-| 7. | Operations- Query,Mutations,subscriptions | Operations- CRUD|
-| 8. | Specific data with a single API calls | Fixed data with multiple API calls |
-| 9. | Community growing | Community large |
+| --- | --- | --- |
+| 1. | Single endpoint| Lots of end point |
+| 2. | Client decide how data is returned | Server side decide how data is returned |
+| 3. | Schema based | There is no schema for the data |
+| 4. | Performance fast | Multiple network calls take up more time|
+| 5. | Development speed rapid | Development speed slower|
+| 6. | Operations- Query,Mutations,subscriptions | Operations- CRUD|
+| 7. | Specific data with a single API calls | Fixed data with multiple API calls |
+| 8. | Community growing | Community large |
 
 # Module Structure
 
