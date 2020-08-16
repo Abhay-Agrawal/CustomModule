@@ -1,0 +1,19 @@
+type StoreConfig {
+    hellographql_general_enable  : String  @doc(description: "TO check module enable or disable") ,
+    hellographql_general_custom_value: String @doc(description: "You can fetch value according to your need")
+}
+
+type Query {
+    productCollection: ProductCollection @resolver(class: "Abhay\\CustomModule\\Model\\Resolver\\ProductsResolver") @doc(description: "Get Product collection of a store")
+}
+
+type ProductCollection @doc(description: "product collection") {
+    allProducts: [ProductRecord] @doc(description: "Product records with sku,name and price")
+}
+
+type ProductRecord {
+    id: Int @doc(description: "To get Product Id")
+    sku: String @doc(description: "To get Product sku")
+    name: String @doc(description: "To get Product name")
+    price: Float @doc(description: "To get Product price")
+}
