@@ -1,5 +1,5 @@
 # CustomModule using GraphQl
-
+___
 # About GraphQl
 
 * GraphQl is an open source server side technology which was developed by facebook to optimize RESTFUL API calls.
@@ -8,6 +8,7 @@
 * The request made by a client to the GraphQl server is called a query.
 * GraphQl is a query language for APIs - not a databases.
 
+___
 # REST API vs GraphQl
 
 
@@ -21,7 +22,7 @@
 | 6. | Operations- Query,Mutations,subscriptions | Operations- CRUD|
 | 7. | Specific data with a single API calls | Fixed data with multiple API calls |
 | 8. | Community growing | Community large |
-
+___
 # Module Structure
 
 A GraphQL module’s schema.graphqls file defines how the attributes defined in the module can be used in GraphQL queries and mutations.
@@ -31,7 +32,8 @@ The <module_name>/etc/schema.graphqls file:
 * Points to the resolvers that verify and process the input data and response.
 * Serves as the source for displaying the schema in a GraphQL browser.
 * Defines which objects are cached.
-            
+
+___
 # Resolver
 
 *  A resolver performs GraphQL request processing.
@@ -42,7 +44,7 @@ The <module_name>/etc/schema.graphqls file:
   * transforming the fetched and calculated data into a GraphQL array format
   * finally, it returns the query results for rendering
 
-
+___
 # Magento2 Core Module
 
 * BundleGraphQl
@@ -63,17 +65,22 @@ The <module_name>/etc/schema.graphqls file:
 * ThemeGraphQl
 * UrlRewriteGraphQl
 * WeeeGraphQl
-
+___
 # GraphQl Tool
 
 * GraphiQL is an in-browser tool for write and testing GraphQl queries.
 * For Google Chrome, ChromeiQL extension is supported, GraphQl Query. Others are Altair GraphQl addon used in both Firefox as well as Chrome.
 
-# Check Other Magento2 Module
+___
 
-| Module Name | Description |
-| --- | --- |
-| Custom Shipping | [Custom Shipping Method For Magento Website](https://github.com/Abhay-Agrawal/Abhay_CustomShipping-1.0.0) |
-| LatestNews | [Add Latest News Related to product offer with content in your website](https://github.com/Abhay-Agrawal/Abhay_LatestNews-1.0.0) |
+# My Magento Module
+
+| S.No.| Module Name | Description |
+| --- | --- | --- |
+| 1.| [Learning Module](https://github.com/Abhay-Agrawal/Abhay_Learning-1.0.0) | To Add text message, Drop Down, Radio Button, Multi Select and Text Area in store configuration |
+| 2.| [Custom Module](https://github.com/Abhay-Agrawal/CustomModule)| To Fetch the system configuration value and Product Information using GraphQl |
+| 3.| [Custom Shipping](https://github.com/Abhay-Agrawal/Abhay_CustomShipping-1.0.0) | This module is used to add the Custom Shipping in the Website|
+| 4.| [LatestNews](https://github.com/Abhay-Agrawal/Abhay_LatestNews-1.0.0) | Add Latest News Related to product offer with content in your website |
+| 5.| [GroupProductOptions](https://github.com/Abhay-Agrawal/Abhay_GroupProductOptions-1.0.0) | To show the group product options like as child product available quantity, SKU and custom message |
 
 
